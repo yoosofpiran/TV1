@@ -208,7 +208,7 @@ export class SymbolsStorage {
 					try {
 						this._onExchangeDataReceived(exchange, response);
 					} catch (error) {
-						reject(error);
+						
 						return;
 					}
 
